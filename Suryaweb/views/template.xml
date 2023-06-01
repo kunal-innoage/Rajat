@@ -1,0 +1,247 @@
+<?xml version = "1.0" encoding = "UTF8" ?>
+
+<odoo>
+    <template id="products_description_surya" inherit_id="website_sale.products_item" customize_show="True" name="Product Description">
+        <xpath expr="//*[hasclass('product_price')]" position="replace">
+            <!-- <div class="oe_subdescription" contenteditable="false">
+                <div itemprop="description" t-field="product.description_sale"/>
+            </div> -->
+        </xpath>
+    </template>
+
+    <template id="products_search_surya" inherit_id="website_sale.products" name="Product Search">
+        <xpath expr="//div[hasclass('products_categories')]" position="before">
+            <t t-call="website.website_search_box_input">
+                <t t-set="search_type" t-valuef="all"/>
+                <t t-set="action" t-valuef="/website/search"/>
+                <t t-set="limit" t-valuef="5"/>
+                <t t-set="display_image" t-valuef="true"/>
+                <t t-set="display_description" t-valuef="true"/>
+                <t t-set="display_extra_link" t-valuef="true"/>
+                <t t-set="display_detail" t-valuef="true"/>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="layout_surya_inh" name="Main layout" inherit_id="portal.frontend_layout">
+
+        <xpath expr="//div[hasclass('o_footer_copyright')]/div/div" position="inside">
+            <div>
+                <div class="s_share text-left" data-snippet="s_share" data-name="Social Media">
+                    <h5 class="s_share_title d-none">Follow us</h5>
+                    <a href="/website/social/facebook" class="s_share_facebook" target="_blank">
+                        <i class="fa fa-facebook m-1"/>
+                    </a>
+                    <a href="/website/social/twitter" class="s_share_twitter" target="_blank">
+                        <i class="fa fa-twitter m-1"/>
+                    </a>
+                    <a href="/website/social/linkedin" class="s_share_linkedin" target="_blank">
+                        <i class="fa fa-linkedin m-1"/>
+                    </a>
+                    <a href="/website/social/instagram" class="s_share_instagram" target="_blank">
+                        <i class="fa fa-instagram m-1"/>
+                    </a>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- add to cart remove from product page -->
+    <template id="product_surya_inh" inherit_id="website_sale.product">
+        <xpath expr="//div[@id='add_to_cart_wrap']" position="attributes">
+            <attribute name="class">d-none</attribute>
+        </xpath>
+    </template>
+
+
+
+
+
+    <!-- Product page added content -->
+
+    <template id="inno_products_sku" inherit_id="website_sale.product" name="Product Sku">
+        <xpath expr="//div[@id='product_details']" position="inside">
+            <div class="oe_subdescription" contenteditable="false">
+                <div class = "container">
+                    <h5 style = "display: inline-block">Collection:</h5>
+                    <div itemprop="tagname" style = "display: inline-block" t-field="product.website_catalogue_id.collection"/>
+                </div>
+                <div class = "container">
+                    <h5 style = "display: inline-block">Model:</h5>
+                    <div itemprop="shape" style = "display: inline-block" t-field="product.website_catalogue_id.model_name"/>
+                </div>
+                <div class = "container">
+                    <h5 style = "display: inline-block">Material:</h5>
+                    <div itemprop="shape" style = "display: inline-block" t-field="product.website_catalogue_id.material"/>
+                </div>
+                <div class = "container">
+                    <h5 style = "display: inline-block">Shape:</h5>
+                    <div itemprop="shape" style = "display: inline-block" t-field="product.website_catalogue_id.shape"/>
+                </div>
+                 <div class = "container">
+                    <h5 style = "display: inline-block">Style:</h5>
+                    <div itemprop="shape" style = "display: inline-block" t-field="product.website_catalogue_id.style"/>
+                </div>
+                <div class = "container">
+                    <h5 style = "display: inline-block">Use:</h5>
+                    <div itemprop="shape" style = "display: inline-block" t-field="product.website_catalogue_id.use"/>
+                </div>
+                <div class = "container">
+                    <h5 style = "display: inline-block">Pile Height:</h5>
+                    <div itemprop="shape" style = "display: inline-block" t-field="product.website_catalogue_id.pile_height"/>
+                </div>
+                <div class = "container">
+                    <h5 style = "display: inline-block">Care Instructions:</h5>
+                    <div itemprop="shape" style = "display: inline-block" t-field="product.website_catalogue_id.care_instructions"/>
+                </div>
+
+            </div>
+        </xpath>
+
+    </template>
+
+
+    <!-- Full Description of product -->
+
+    <template id="product_custom_text_overview" inherit_id="website_sale.product" active="True" name="Product Overview">
+
+        <xpath expr="//div[@id='product_full_description']" position="after">
+            <section class="s_tabs pt48 pb48" data-vcss="001">
+                <div class="container-fluid">
+                    <div class="s_tabs_main">
+                        <div class="s_tabs_nav mb-3">
+                            <ul class="nav nav-pills" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="nav_tabs_link_1" data-toggle="tab" href="#nav_tabs_content_1" role="tab" aria-controls="nav_tabs_content_1" aria-selected="true">Description</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav_tabs_link_2" data-toggle="tab" href="#nav_tabs_content_2" role="tab" aria-controls="nav_tabs_content_2" aria-selected="false">More Information</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s_tabs_content tab-content" style = "max-width: fit-content;">
+                            <div class="tab-pane fade show active" id="nav_tabs_content_1" role="tabpanel" aria-labelledby="nav_tabs_link_1">
+                                <div class="oe_structure oe_empty">
+                                    <section class="s_text_block">
+                                        <div class="container s_allow_columns" t-field="product.website_catalogue_id.final_formula" style = "max-width:fit-content"/>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav_tabs_content_2" role="tabpanel" aria-labelledby="nav_tabs_link_2">
+                                <div class="oe_structure oe_empty">
+                                    <section class="s_text_block">
+                                        <div class="container s_allow_columns">
+                                            <p>To be successful your content needs to be useful to your readers.</p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- room scene banner -->
+
+            <section class="s_cover_roomscene parallax s_parallax_is_fixed" data-scroll-background-ratio="1">
+                <div class="d-flex align-items-center justify-content-center h-90">
+                    <img t-attf-src="{{product.roomscene1}}" class="img img-fluid product_detail_img mh-100" alt="product.name image" data-zoom="1" data-zoom-image="image_1920" loading="lazy"/>
+                </div>
+            </section>
+
+            <!-- features -->
+
+            <section class="s_features pt32 pb32">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 pt32 pb32 text-center">
+                            <img src = "/Suryaweb/static/src/img/feature1.png"/>
+                            <h3>STANDARD 100 by OEKO-TEX® <br></br>Certified</h3>
+
+                        </div>
+                        <div class="col-lg-4 pt32 pb32 text-center">
+                            <img src = "/Suryaweb/static/src/img/feature2.png"/>
+                            <h3>Strong And Durable</h3>
+
+                        </div>
+                        <div class="col-lg-4 pt32 pb32 text-center">
+                            <img src = "/Suryaweb/static/src/img/feature3.png"/>
+                            <h3>Good Quality</h3>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- <section class="s_text_image_inno pt32 pb32">
+                <div class="container" id = "text-img">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 pt16 pb16">
+                            <p>Founded in 1976 our mission is to be the go-to resource for coordinating home accessories across a diverse range of lifestyles and budgets and to simplify the buying experience for designers, retailers, and end consumers.</p>
+                            <p>Experts at merging form with function, we translate the most relevant apparel and home decor trends with innovative designs into fashion-forward products across a range of styles and categories.</p>
+                            <p>
+                                <a href="/contactus" class="btn btn-primary mb-2">Learn more</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 pt16 pb16">
+                            <div t-field="product.image_1920" class="d-flex align-items-center justify-content-center h-100" t-options='{"widget": "image", "preview_image": "image_1024", "class": "product_detail_img mh-100", "alt-field": "name",}'/>
+                            <t t-foreach="product_images" t-as="product_image">
+
+                                <div t-if="product_image._name == 'product.image' and product_image.embed_code" class="d-flex align-items-center justify-content-center h-100 embed-responsive embed-responsive-16by9">
+                                    <t t-out="product_image.embed_code"/>
+                                </div>
+                                <div t-else="" t-field="product_image.image_1920" class="d-flex align-items-center justify-content-center h-100" t-options='{"widget": "image", "preview_image": "image_1024", "class": "product_detail_img mh-100", "alt-field": "name", "zoom": product_image.can_image_1024_be_zoomed and "image_1920"}'/>
+
+                            </t>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="s_text_image_inno pt32 pb32">
+                <div class="container">
+                    <div class="row align-items-center">
+                       
+                        <div class="col-lg-6 pt16 pb16">
+                            <p style ="font-size:20px"><strong>Rug Cleaning:</strong>Mix a few drops of washing-up liquid with a little warm water, then, using a clean cloth, dab gently. Leave to work, rinse lightly with clean water and dab with a paper towel. Repeat the process until the stain is gone.</p>
+                            
+                            <p style ="font-size:20px"><strong>Caution:</strong>Rugs tolerate water but do not like it. Although synthetic rugs have a water-repellent structure, this does not mean that they should be soaked with water during cleaning. Too much moisture can damage a ru.</p>
+                        </div>
+
+                         <div class="col-lg-6 pt16 pb16">
+                            <img src="/Suryaweb/static/src/img/rug_cleaning_img.jpg" class="img img-fluid mx-auto" alt="rug_cleaning_img"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="s_features pt32 pb32">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 pt32 pb32 text-center">
+                            <img src = "/Suryaweb/static/src/img/feature4.png"/>
+                            <h3>Suitable for Underfloor 
+                                <br></br>Heating</h3>
+
+                        </div>
+                        <div class="col-lg-4 pt32 pb32 text-center">
+                            <img src = "/Suryaweb/static/src/img/feature5.png"/>
+                            <h3>Robot-Vacuum-Friendly</h3>
+
+                        </div>
+                        <div class="col-lg-4 pt32 pb32 text-center">
+                            <img src = "/Suryaweb/static/src/img/feature6.png"/>
+                            <h3>Anti-Bacterial</h3>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </xpath>
+
+    </template>
+</odoo>
+ 

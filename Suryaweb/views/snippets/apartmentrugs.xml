@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF8" ?>
+
+<odoo>
+
+    <template id="s_apartmentrugs" name="inno_apartmentrugs">
+        <section class="s_testimonial">
+            <div class = "apartment-rugs-banner">
+                <div class="inno-apartmentrugs-row">
+                    <div class="col-lg-6 overflow-hidden">
+                        <div class="pop_over_product_details w100 h100">
+                            <!-- <h3>Vintage Rugs</h3> -->
+                            <h1>Best Sellers</h1>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                        <img alt="client" class="apart-rug-img-thumbnail" src="/Suryaweb/static/src/img/best_seller.jpg" style = "padding:0px;"/>
+                    </div>
+                    <div class="col-lg-6 overflow-hidden"> 
+                        <div class="pop_over_product_details w100 h100">
+                            <!-- <h3>Vintage Rugs</h3> -->
+                            <h1>New Arrivals</h1>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                        <img alt="client" class="apart-rug-img-thumbnail" src="/Suryaweb/static/src/img/new_arrivals.jpg" style = "padding:0px;"/>
+                    </div>
+                    <!-- <div class="col-lg-3 overflow-hidden">
+                        <div class="pop_over_product_details w100 h100">
+                            <h3>Vintage Rugs</h3>
+                            <h1>Best Vintage Rugs In The Market</h1>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                        <img alt="client" class="apart-rug-img-thumbnail" src="/Suryaweb/static/src/img/apart1.webp" style = "padding:0px;"/>
+                    </div> -->
+                    <!-- <div class="col-lg-3 overflow-hidden">
+                        <div class="pop_over_product_details w100 h100">
+                            <h3>Vintage Rugs</h3>
+                            <h1>Best Vintage Rugs In The Market</h1>
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                        <img alt="client" class="apart-rug-img-thumbnail" src="/Suryaweb/static/src/img/apart2.webp" style = "padding:0px;"/>
+                    </div> -->
+                </div> 
+            </div> 
+        </section>
+    </template>
+    <template id="place_into_bar_apartmentrugs" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="Suryaweb.s_apartmentrugs"/>
+        </xpath>
+    </template>
+</odoo>

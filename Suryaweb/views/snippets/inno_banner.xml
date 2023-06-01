@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="s_inno_banner" name="Outdoor Cover">
+    <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 pb96" data-scroll-background-ratio="1">
+        <span class="s_parallax_bg oe_img_bg" style="background-image: url('/Suryaweb/static/src/img/New_Banner.jpg'); background-position: 50% 0;"/>
+        <div class="container-fluid s_allow_columns">
+           <p style = "color:orange">Outdoor Rugs</p>
+            <h1 style=""><font style="font-size: 62px; font-weight: bold;">To Make Your Patio<br></br>Feel Like Home</font></h1>
+            <a href="/shop/category/outdoor-2">
+            <button style = "background-color: orange">Discover Now</button>
+            </a>
+        </div>
+    </section>
+</template>
+
+<template id="place_into_bar_inno_banner" inherit_id="website.snippets" name="Place into bar">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="Suryaweb.s_inno_banner"/>
+            </xpath>
+</template>
+
+</odoo>

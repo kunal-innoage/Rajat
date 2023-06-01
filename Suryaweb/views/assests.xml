@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF8" ?>
+
+<odoo>
+    <template id="assets_frontend" name="My style" >
+    <xpath expr="link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/Suryaweb/static/src/scss/style.scss"/>
+        <link rel="stylesheet" type="text/scss" href="/Suryaweb/static/src/scss/styles.scss"/>
+        <link rel="stylesheet" type="text/scss" href="/Suryaweb/static/src/scss/product.scss"/>
+        <link rel="stylesheet" type="text/scss" href="/Suryaweb/static/src/scss/aboutus.scss"/>
+        <link rel="stylesheet" type="text/scss" href="/Suryaweb/static/src/scss/contactus.scss"/>
+
+
+
+    </xpath>
+</template>
+</odoo>

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF8" ?>
+
+<odoo>
+    <template id="s_shop_product_size" name="inno_product_size">
+        <section class="s_testimonial">
+            <div class = "shop-product-size-banner">
+                <h1 class="font-weight-bold text-center" >View by size</h1>
+                <div class="inno-product-row">
+                    <div class="col-lg-3 text-center">
+                        <img alt="product-size-img" class="product-size-img-thumbnail" src="/Suryaweb/static/src/img/product_size.png" />
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img alt="product-size-img" class="product-size-img-thumbnail" src="/Suryaweb/static/src/img/product_size.png"/>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img alt="product-size-img" class="product-size-img-thumbnail" src="/Suryaweb/static/src/img/product_size.png"/>
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img alt="product-size-img" class="product-size-img-thumbnail" src="/Suryaweb/static/src/img/product_size.png"/>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="place_into_bar_product_shop_size" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="Suryaweb.s_shop_product_size"/>
+        </xpath>
+    </template>
+</odoo>

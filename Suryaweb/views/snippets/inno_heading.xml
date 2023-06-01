@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF8" ?>
+
+<odoo>
+    
+<template id="s_inno_title" name="Title">
+    <section class="s_title" data-vcss="001">
+        <div class="container s_allow_columns">
+            <h3 class="background text-center"><span>OUR COLLECTIONS</span></h3>
+        </div>
+    </section>
+</template>
+
+<template id="place_into_bar_inno_title" inherit_id="website.snippets" name="Place into bar">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="Suryaweb.s_inno_title"/>
+            </xpath>
+    </template>
+</odoo>

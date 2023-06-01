@@ -1,0 +1,95 @@
+<?xml version = "1.0" encoding = "UTF8" ?>
+
+<odoo>
+    <template id="s_cookie_policy_surya" inherit_id="website.cookie_policy" name="Cookie Policy">
+        <xpath expr="//div[hasclass('container')]" position="replace">
+            <t t-call="website.layout">
+                <div id="wrap" class="oe_structure">
+                    <section class="pt8 pb8">
+                        <div class="container">
+                            <h2 class="pt16">Cookie Policy</h2>
+
+                            <h4 class="pt16">Effective Date: [31/05/2023]</h4>
+                            <h4 class="pt16">Introduction</h4>
+
+                            <p>
+                                This Cookie Policy ("Policy") explains how we, Surya BV / MarkandDay, use cookies and similar tracking technologies on our website ("www.surya.eu") to provide you with an enhanced browsing experience and to improve our services. This Policy applies to individuals who visit our Website and interact with its features. By using our Website, you consent to the use of cookies and similar technologies as described in this Policy.
+                            </p>
+
+                            <h4 class="pt16">What are Cookies?</h4>
+
+                            <p>
+                                Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work or function more efficiently, as well as to provide information to the owners of the website. Cookies can be categorized as session cookies or persistent cookies.
+                                <ul>
+
+                                    <li>
+                                        <strong>Session Cookies:</strong>These cookies are temporary and are erased when you close your browser. They are used to remember your activities on our Website during a single browsing session.
+                                    </li>
+
+                                    <li>
+                                        <strong>Persistent Cookies:</strong>These cookies remain on your device for a longer period or until you manually delete them. They are used to recognize you as a returning visitor to our Website, remember your preferences, and provide personalized features.
+                                    </li>
+                                </ul>
+                            </p>
+
+                            <h4 class="pt16">Types of Cookies We Use:</h4>
+                            <p>We use the following types of cookies on our Website:</p>
+                            <ul>
+                                <li>
+                                    <p>
+                                        <strong>Strictly Necessary Cookies:</strong>These cookies are essential for the functioning of our Website and enable you to navigate and use its features. Without these cookies, certain services may not be available to you.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>Performance Cookies:</strong>These cookies collect information about how visitors use our Website, such as which pages are visited most frequently and any error messages encountered. These cookies do not collect personally identifiable information and are used to improve the performance and functionality of our Website.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>Functionality Cookies:</strong>These cookies allow our Website to remember choices you have made and provide enhanced and personalized features. For example, they may remember your preferred language settings or the region you are in.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>Analytics Cookies:</strong>We use analytics cookies to gather information about your use of our Website. These cookies help us understand how our Website is being used, how effective our marketing campaigns are, and how we can improve our Website to enhance user experience. The information collected is aggregated and anonymous.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <strong>Advertising Cookies:</strong>We may use advertising cookies to display personalized advertisements on our Website or other websites you visit. These cookies are used to deliver targeted advertisements based on your interests and online activities.
+                                    </p>
+                                </li>
+
+                            </ul>
+
+
+                            <h4 class="pt16">Third-Party Cookies</h4>
+                            <p>We may also allow certain third-party service providers to place cookies on our Website. These third parties may use cookies to collect information about your online activities across different websites. We do not have control over these third-party cookies and their use is subject to their respective privacy policies.</p>
+
+                            <h4 class="pt16">Cookie Management</h4>
+                            <p>When you first visit our Website, we will request your consent to use cookies. You have the right to accept or decline cookies. However, please note that declining cookies may limit your access to certain features of our Website.
+                            </p>
+                            <br></br>
+                            <p>Most web browsers are set to accept cookies by default. You can modify your browser settings to manage or delete cookies. Please refer to your browser's help documentation for more information on how to manage cookies.</p>
+
+                            <h4 class="pt16">Updates to this Policy</h4>
+                            <p>We may update this Cookie Policy from time to time to reflect changes in technology, applicable laws, or our business practices. Any changes will be posted on this page with the updated effective date. We encourage you to review this Policy periodically to stay informed about our use of cookies.</p>
+
+
+                            <h4 class="pt16">Contact Us</h4>
+                            <p>If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at [insert contact information].</p>
+                        </div>
+                    </section>
+                </div>
+            </t>
+        </xpath>
+    </template>
+
+    <!-- <template id="place_into_bar_cookie_policy_surya" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="Suryaweb.s_cookie_policy_surya"/>
+        </xpath>
+    </template> -->
+
+</odoo>

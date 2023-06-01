@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "UTF8" ?>
+
+<odoo>
+    <template id="s_latestblogs" name="inno_latestblogs">
+        <section class="s_testimonial">
+            <div class = "inno-blogs">
+                <!-- <h3 class = "text-center">OUR LATEST BLOGS</h3> -->
+                <h6 class = "text-center" >Originally grow the holistic world view of disruptive innovation via workplace diversity and empowernment</h6>
+                <div class="row" style="">
+                    <div class="col-lg-3">
+                        <div class="card shadow" style="">
+                            <img src="/Suryaweb/static/src/img/blog1.jpg" class="card-img-top" alt="blog1-img"/>
+                                <div class="card-body">
+                                    <h5 style = "border-bottom: 2px solid orange"> Bathroom and Kitchen Remodelling<br></br>
+                                        Celling Doors and Windows</h5>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card shadow" style="">
+                            <img src="/Suryaweb/static/src/img/blog2.jpg" class="card-img-top" alt="blog1-img"/>
+                                <div class="card-body">
+                                    <h5 style = "border-bottom: 2px solid orange"> Bathroom and Kitchen Remodelling<br></br>
+                                        Celling Doors and Windows</h5>
+                                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card shadow" style="">
+                                <img src="/Suryaweb/static/src/img/blog3.jpg" class="card-img-top" alt="blog2-img"/>
+                                    <div class="card-body">
+                                        <h5 style = "border-bottom: 2px solid orange"> Bathroom and Kitchen Remodelling<br></br>
+                                        Celling Doors and Windows</h5>
+                                        <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card shadow" style="">
+                                    <img src="/Suryaweb/static/src/img/blog4.jpg" class="card-img-top" alt="blog3-img"/>
+                                        <div class="card-body">
+                                            <h5 style = "border-bottom: 2px solid orange"> Bathroom and Kitchen Remodelling<br></br>
+                                        Celling Doors and Windows</h5>
+                                            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+    <template id="place_into_bar_latestblogs" inherit_id="website.snippets" name="Place into bar">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="Suryaweb.s_latestblogs"/>
+            </xpath>
+    </template>
+</odoo>

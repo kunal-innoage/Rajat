@@ -1,0 +1,285 @@
+.oe_website_sale {
+    max-width: 100%;
+}
+
+
+
+
+// banner
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(/Suryaweb/static/src/img/Shop_Page_banner_img.png);
+    background-position: center;
+    background-size: cover;
+
+    h1{
+        font-family: 'Lato';
+        color: white;
+        font-size: 42px !important;
+        margin-top: 90px;
+        span{
+            color: orange;
+        }
+    }
+  }
+
+.o_wsale_products_grid_table_wrapper {
+    text-align: center;
+
+    .oe_product {
+        padding: 16px !important;
+
+        .o_wsale_product_grid_wrapper {
+            width: 85%;
+
+            .oe_product_cart {
+                .oe_product_image {
+                    transition: box-shadow 0.4s ease-in-out 0.3s;
+                    background-color: #f1f1f1 !important;
+                    box-shadow: 0px 13px 16px #e7e4e4fa;
+                    padding: 0px !important;
+                    transform: scale(0.9) !important;
+
+                    a {
+                        span {
+                            img {
+                                transform: scale(.9) !important;
+                                object-fit: cover;
+                                transition: transform 0.3s ease-in-out;
+                            }
+                        }
+                    }
+                }
+
+                .o_wsale_product_information {
+                    .o_wsale_product_information_text {
+                        h6 {
+                            font-weight: 600;
+                            font-size: 17px;
+                            padding-top: 5px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .oe_product_image {
+                        z-index: 10;
+                        box-shadow: 3px 10px 9px #ccc;
+
+                        a {
+                            span {
+                                img {
+                                    transform: scale(1) !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    table {
+        img:hover {
+            transform: scale(1);
+        }
+    }
+}
+
+
+#products_grid {
+    .products_header {
+
+        .mb-4,
+        .my-4 {
+            margin-bottom: 0px !important;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .oe_website_sale #products_grid_before {
+        border-right: 0px !important;
+
+
+    }
+}
+
+
+@media (min-width: 992px) {
+    .oe_website_sale {
+        .col-lg-3 {
+            flex: 0 0 25%;
+            max-width: 20% !important;
+        }
+    }
+}
+
+.o_wsale_products_main_row {
+    margin-top: -5px;
+
+    #products_grid_before {
+        background-color: #f1f1f1 !important;
+        box-shadow: 0px 13px 16px #e7e4e4fa;
+        padding-left: 1%;
+        margin: 55px;
+
+        .o_searchbar_form {
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            .input-group {
+                .form-control {
+                    border-radius: 0px !important;
+                    border: unset;
+                }
+
+                .input-group-append {
+                    button {
+                        background-color: orange !important;
+                        border-radius: 0px;
+                        width: auto;
+                        border: unset;
+                    }
+                }
+            }
+        }
+
+        .products_categories {
+            #wsale_products_categories_collapse {
+                ul {
+                    border-bottom: 0px solid gray !important;
+
+                    li {
+                        border-bottom: 1px solid white !important;
+                    }
+
+                    label:hover {
+                        color: orange !important;
+                        cursor: pointer;
+                    }
+
+                    label:active {
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+
+        .products_attributes_filters {
+            #wsale_products_attributes_collapse {
+                a {
+                    i {
+                        display: none;
+                    }
+
+                    u {
+                        text-decoration: none !important;
+                    }
+
+                    u:hover {
+                        color: orange;
+                    }
+                }
+            }
+        }
+
+        .custom-control.custom-checkbox label:hover {
+            color: orange !important;
+            cursor: pointer;
+        }
+
+    }
+}
+
+
+
+.o_pricelist_dropdown {
+    display: none;
+}
+
+#products_grid {
+    .products_header {
+        .o_searchbar_form {
+            display: none;
+        }
+    }
+}
+
+main {
+    #wrap {
+        #oe_structure_website_sale_products_1 {
+            section {
+                span {
+                    background-position: 40%, 0px;
+                }
+
+                .container {
+                    .s_nb_column_fixed {
+                        .o_cc1 {
+                            background-color: transparent !important;
+
+                            h1 {
+                                text-align: center;
+                                font-weight: 600;
+                                font-size: 60px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.o_wsale_products_main_row {
+    margin-bottom: 10% !important;
+}
+
+
+@media (min-width:425.01px) and (max-width: 768px){
+    
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(/Suryaweb/static/src/img/Shop_Page_banner_img.png);
+    background-position: center;
+    background-size: cover;
+
+    h1{
+        font-family: 'Lato';
+        color: white;
+        font-size: 30px !important;
+        margin-top: 90px !important;
+        span{
+            color: orange;
+        }
+    }
+  }
+}
+
+
+@media (max-width:425px){
+       
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(/Suryaweb/static/src/img/Shop_Page_banner_img.png);
+    background-position: center;
+    background-size: cover;
+
+    h1{
+        font-family: 'Lato';
+        color: white;
+        font-size: 25px !important;
+        margin-top: 90px !important;
+        span{
+            color: orange;
+        }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="s_inno_features" name="Features">
+    <section class="s_features pt32 pb32">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 pt32 pb32 text-center">
+                    <img src = "/Suryaweb/static/src/img/feature1.png"/>
+                    <h3>First Feature</h3>
+                    <p>Tell what's the value for the <br/>customer for this feature.</p>
+                </div>
+                <div class="col-lg-4 pt32 pb32 text-center">
+                    <img src = "/Suryaweb/static/src/img/feature2.png"/>
+                    <h3>Second Feature</h3>
+                    <p>Write what the customer would like to know, <br/>not what you want to show.</p>
+                </div>
+                <div class="col-lg-4 pt32 pb32 text-center">
+                     <img src = "/Suryaweb/static/src/img/feature3.png"/>
+                    <h3>Third Feature</h3>
+                    <p>A small explanation of this great <br/>feature, in clear words.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<template id="place_into_bar_inno_features" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="Suryaweb.s_inno_features"/>
+        </xpath>
+</template>
+
+</odoo>

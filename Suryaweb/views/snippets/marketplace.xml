@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="s_market_places" name="Market Place">
+        <section class="s_market_place">
+         <h1 class = "text-center">Where to Buy?</h1>
+          
+      <div  id="formList">
+        <!-- <h1 class = "text-center">Where to Buy?</h1> -->
+        <div id="list">
+            <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace1.png" class="avatar"/>
+            </div>
+            <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace2.png" class="avatar"/>               
+            </div>
+            <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace3.png" class="avatar"/>                
+            </div>
+            <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace4.png" class="avatar"/>                  
+            </div>
+            <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace5.jpg" class="avatar"/>                 
+            </div>
+            <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace6.jpg" class="avatar"/>                  
+            </div>
+             <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace7.jpg" class="avatar"/>                  
+            </div>
+             <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace8.jpg" class="avatar"/>                
+            </div>
+             <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace9.jpg" class="avatar"/>                  
+            </div>
+             <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace10.jpg" class="avatar"/>                
+            </div>
+             <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace11.jpg" class="avatar"/>    
+            </div>
+             <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace12.jpg" class="avatar"/>
+             </div>
+             <div class="item">
+                <img src="/Suryaweb/static/src/img/marketplace13.jpg" class="avatar"/>
+             </div>
+
+          
+        </div>
+      
+
+    </div>
+   
+   
+   
+
+ <div class="direction">
+            <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+
+    <!-- <a class="carousel-control-prev" data-slide="prev" role="button" aria-label="Previous" title="Previous">
+                    <span class="fa fa-chevron-circle-left fa-2x"></span>
+                    <span class="sr-only" id ="prev">Previous</span>
+                </a>
+
+    <a class="carousel-control-next" data-slide="next" role="button" aria-label="Next" title="Next">
+                    <span class="fa fa-chevron-circle-right fa-2x"></span>
+                    <span class="sr-only" id="next">Next</span>
+                </a> -->
+        </section>
+    </template>
+
+    <template id="place_into_bar_market_places" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="Suryaweb.s_market_places"/>
+        </xpath>
+    </template>
+
+</odoo>

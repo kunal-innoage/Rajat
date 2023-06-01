@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="s_marque_logos" name="inno_marque_logos">
+        <section class="s_testimonial">
+                 <!-- <h3 class = "text-center marquee-heading-style">OUR MARKET PLACES</h3> -->
+                 <span class="line_space"></span>
+            <div class="slider">
+                <div class="slide-track">
+                              
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace1.png" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace2.png" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace3.png" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace4.png" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace5.jpg" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace6.jpg" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace7.jpg" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace8.jpg" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace9.jpg" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace10.jpg" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace11.jpg" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace12.jpg" height="100" width="250" alt="" />
+                                </div>
+                                <div class="slide">
+                                    <img src="/Suryaweb/static/src/img/marketplace13.jpg" height="100" width="250" alt="" />
+                                </div>
+                </div>
+             </div>
+        </section>
+</template>
+
+<template id="place_into_bar_marque_logos" inherit_id="website.snippets" name="Place into bar">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="Suryaweb.s_marque_logos"/>
+            </xpath>
+    </template>
+</odoo>

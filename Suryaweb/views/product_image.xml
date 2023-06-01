@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF8" ?>
+
+<odoo>
+    <record model="ir.actions.server" id="get_image_url">
+       <field name="name">Get Image URL</field>
+       <field name="model_id" ref="model_product_image_type"/>
+        <field name="binding_view_types">form,list</field>
+       <field name="binding_model_id" ref="model_product_image_type"/>
+       <field name="state">code</field>
+       <field name="code">
+           action = records.get_image_url()
+       </field>
+    </record>
+    
+</odoo>
