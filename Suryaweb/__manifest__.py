@@ -1,6 +1,6 @@
 {
     'name' : "suryaweb",
-    'depends' : ['website','website_sale','website_catelog','product','product_image_info'],
+    'depends' : ['website','website_sale','website_catelog','product','product_image_types'],
     'author' : "InnoAge Technologies",
     'category': 'Website/Website',
     'assets': {

@@ -11,4 +11,4 @@ class Innoproducts(models.Model):
     sku = fields.Char("SKU")
     tags = fields.Char("Tags")
     product_id = fields.Char("Product Id")
-    
+    website_catalogue_id = fields.Many2one("website.catelog", "Catalogue Id")

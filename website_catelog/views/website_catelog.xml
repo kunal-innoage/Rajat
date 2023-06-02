@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- website_catelog form view -->
+    <record id="website_catelog_view_form" model="ir.ui.view">
+        <field name="name">website_catelog.view.form</field>
+        <field name="model">website.catelog</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="sku"/>                     
+                            <field name="tag_name"/>                     
+                            <field name="final_formula"/>                     
+                            <field name="desc"/>                     
+                            <field name="model_name"/>                     
+                            <field name="collection"/>                     
+                            <field name="main_color"/>                     
+                            <field name="colors"/>                     
+                            <field name="style"/>                     
+                            <field name="material"/>     
+                            <field name="backing_material"/>                
+                            <field name="product_dimension"/>
+                        </group>  
+                         <group>
+                            <field name="weight"/>                     
+                            <field name="pile_height"/>                     
+                            <field name="care_instructions"/>                     
+                            <field name="shape"/>                     
+                            <field name="certifications"/>                     
+                            <field name="use"/>                     
+                            <field name="feature1"/>                     
+                            <field name="feature2"/>                     
+                            <field name="feature3"/>                     
+                            <field name="feature4"/>                     
+                            <field name="feature5"/>
+                        </group>                     
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- website_catelog tree view -->
+    <record id="website_catelog_view_tree" model="ir.ui.view">
+        <field name="name">website_catelog.view.tree</field>
+        <field name="model">website.catelog</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sku"/>                
+                <field name="tag_name"/>                
+                <field name="model_name"/>                
+                <field name="collection"/>                
+                <field name="main_color"/>                
+            </tree>
+        </field>
+    </record>
+    
+    <!-- model.name action window -->
+    <record id="website_catelog_action" model="ir.actions.act_window">
+        <field name="name">Website Catelog</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">website.catelog</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="website_catelog_menu_root" name="Website Catelog"/>
+    <menuitem id="website_catelog_menu" parent="website_catelog.website_catelog_menu_root" action="website_catelog_action" name="Website Catelog"/>
+
+</odoo>

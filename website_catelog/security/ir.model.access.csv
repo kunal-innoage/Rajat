@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_website_catelog_user,website_catelog.website_catelog_user,model_website_catelog,base.group_user,1,1,1,0
+access_website_catelog_manager,website_catelog.website_catelog_manager,model_website_catelog,base.group_system,1,1,1,1
+
