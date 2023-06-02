@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="s_policy_cover" name="Policy Banner">
+   <section class="s_policy_cover banner">
+   
+    <span style="background-image: url('/Suryaweb/static/src/img/Shop_Page_banner_img.png'); background-position: 50% 0;"/>
+        <div class="o_we_bg_filter bg-black-50"/>
+        <div class="container s_allow_columns">
+            <h1 style="text-align: center;"><font style="font-size: 62px; font-weight: bold;">Policies</font></h1>
+        </div></section>
+</template>
+
+<template id="place_into_bar_policy_cover" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="Suryaweb.s_policy_cover"/>
+        </xpath>
+   
+
+</template>
+
+</odoo>

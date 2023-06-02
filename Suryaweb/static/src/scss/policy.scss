@@ -1,0 +1,34 @@
+.s_policy_cover{
+    width: 100%;
+    height: 300px;
+    // background-image: url(/Suryaweb/static/src/img/Shop_Page_banner_img.png);
+    background-position: center;
+    background-size: cover;
+
+    h1{
+        font-family: 'Lato';
+        color: white;
+        font-size: 62px !important;
+        margin-top: 110px;
+        span{
+            color: orange;
+        }
+    }
+  }   
+  
+  
+  .container .container-fluid{
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+
+
+//mobile responsive
+
+@media (max-width: 425px) {
+    .s_tabs_main .s_tabs_nav .nav-pills li a {
+        font-size: 18px;
+        font-weight: 500;
+}
+}    

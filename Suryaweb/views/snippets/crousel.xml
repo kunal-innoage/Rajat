@@ -25,8 +25,8 @@
                                     <h1>Chic &amp; Cosy <span>Rugs</span></h1>
                                     <p>For interiors with a unique style, just like you
                                     </p>
-                                    <a href ="/shop"><span><button id = "btn-project">OUR PRODUCTS</button></span></a>
-                                    <a href ="#"><button >EXPLORE NOW</button></a>
+                                    <!-- <a href =""><span><button id = "btn-project">OUR PRODUCTS</button></span></a> -->
+                                    <a href ="/shop"><button >EXPLORE NOW</button></a>
                                    
                                 </div>
                             </div>
@@ -41,8 +41,8 @@
                                     <h1>Live with Style and <span>Elegance</span></h1>
                                     <p>Because living is an art and we are all artists
                                     </p>
-                                    <a href ="/shop"><span><button id = "btn-project">OUR PRODUCTS</button></span></a>
-                                    <a href ="#"><button >EXPLORE NOW</button></a>
+                                    <!-- <a href ="/shop"><span><button id = "btn-project">OUR PRODUCTS</button></span></a> -->
+                                    <a href ="/shop"><button >EXPLORE NOW</button></a>
                                    
                                 </div>
                             </div>
@@ -58,8 +58,8 @@
                                     <h1>For Unique <span>Interiors</span></h1>
                                     <p>Innovative designs for every lifestyle
                                     </p>
-                                    <a href ="/shop"><button id = "btn-project">OUR PRODUCTS</button></a>
-                                    <a href ="#"><button >EXPLORE NOW</button></a>
+                                    <!-- <a href ="/shop"><button id = "btn-project">OUR PRODUCTS</button></a> -->
+                                    <a href ="/shop"><button >EXPLORE NOW</button></a>
                                    
                                 </div>
                             </div>

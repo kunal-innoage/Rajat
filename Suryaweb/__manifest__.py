@@ -10,7 +10,9 @@
             'Suryaweb/static/src/scss/product.scss',
             'Suryaweb/static/src/scss/aboutus.scss',
             'Suryaweb/static/src/scss/contactus.scss',
-            'Suryaweb/static/src/js/styleproduct.js'
+            'Suryaweb/static/src/scss/policy.scss',
+            'Suryaweb/static/src/js/styleproduct.js',
+            'Suryaweb/static/src/js/productstyle.js'
         ],
    },
    'data': [
@@ -20,10 +22,12 @@
         "views/product.xml",
         "views/product_image.xml",
         "views/cookie_template.xml",
+        "views/policy.xml",
+        "views/policy_banner.xml",
         "views/snippets/crousel.xml",      
-        "views/snippets/styleproducts.xml",
+        "views/snippets/productstyle.xml",
         "views/snippets/inno_banner.xml",
-        "views/snippets/producttype.xml",
+        # "views/snippets/producttype.xml",
         "views/snippets/textimage.xml",
         "views/snippets/features.xml",
         "views/snippets/shoppagebanner.xml",

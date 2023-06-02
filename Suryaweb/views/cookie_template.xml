@@ -86,10 +86,4 @@
         </xpath>
     </template>
 
-    <!-- <template id="place_into_bar_cookie_policy_surya" inherit_id="website.snippets" name="Place into bar">
-        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
-            <t t-snippet="Suryaweb.s_cookie_policy_surya"/>
-        </xpath>
-    </template> -->
-
 </odoo>

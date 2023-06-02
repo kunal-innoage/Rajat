@@ -33,7 +33,6 @@
 
         .o_wsale_product_grid_wrapper {
             width: 85%;
-
             .oe_product_cart {
                 .oe_product_image {
                     transition: box-shadow 0.4s ease-in-out 0.3s;
@@ -238,6 +237,32 @@ main {
 
 .o_wsale_products_main_row {
     margin-bottom: 10% !important;
+}
+
+
+
+// mobile responsive Shop page
+
+@media (max-width: 425px) {
+    
+.o_wsale_products_grid_table_wrapper {
+    text-align: center;
+
+    .oe_product {
+        // padding: 16px !important;
+
+        .o_wsale_product_grid_wrapper {
+            width: 100%;
+            margin-left: 5px;
+        }
+    }
+
+    table {
+        img:hover {
+            transform: scale(1);
+        }
+    }
+}
 }
 
 

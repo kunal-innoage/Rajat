@@ -1,0 +1,258 @@
+<?xml version = "1.0" encoding = "UTF8" ?>
+
+<odoo>
+    <template id="s_policies_surya" name="Policies">
+            <section class="s_tabs pt48 pb48" data-vcss="001">
+                <div class="container">
+                    <div class="s_tabs_main">
+                        <div class="s_tabs_nav mb-3">
+                            <ul class="nav nav-pills" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="nav_tabs_link_1" data-toggle="tab" href="#nav_tabs_content_1" role="tab" aria-controls="nav_tabs_content_1" aria-selected="true">Cookies Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="nav_tabs_link_2" data-toggle="tab" href="#nav_tabs_content_2" role="tab" aria-controls="nav_tabs_content_2" aria-selected="false">Data Protection Policy</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" id="nav_tabs_link_3" data-toggle="tab" href="#nav_tabs_content_3" role="tab" aria-controls="nav_tabs_content_3" aria-selected="false">More Information</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                        <div class="s_tabs_content tab-content" style = "max-width: fit-content;">
+                            <div class="tab-pane fade show active" id="nav_tabs_content_1" role="tabpanel" aria-labelledby="nav_tabs_link_1">
+                                <div class="oe_structure oe_empty">
+                                    <section class="s_text_block">
+                                        <div class="container-fluid">
+                                            <h2 class="pt16">Cookie Policy</h2>
+
+                                            <h4 class="pt16">Effective Date: [31/05/2023]</h4>
+                                            <h4 class="pt16">Introduction</h4>
+
+                                            <p>
+                                            This Cookie Policy ("Policy") explains how we, Surya BV / MarkandDay, use cookies and similar tracking technologies on our website ("www.surya.eu") to provide you with an enhanced browsing experience and to improve our services. This Policy applies to individuals who visit our Website and interact with its features. By using our Website, you consent to the use of cookies and similar technologies as described in this Policy.
+                                            </p>
+
+                                            <h4 class="pt16">What are Cookies?</h4>
+
+                                            <p>
+                                            Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work or function more efficiently, as well as to provide information to the owners of the website. Cookies can be categorized as session cookies or persistent cookies.
+                                                <ul>
+
+                                                    <li>
+                                                        <strong>Session Cookies:</strong>These cookies are temporary and are erased when you close your browser. They are used to remember your activities on our Website during a single browsing session.
+                                                    </li>
+
+                                                    <li>
+                                                        <strong>Persistent Cookies:</strong>These cookies remain on your device for a longer period or until you manually delete them. They are used to recognize you as a returning visitor to our Website, remember your preferences, and provide personalized features.
+                                                    </li>
+                                                </ul>
+                                            </p>
+
+                                            <h4 class="pt16">Types of Cookies We Use:</h4>
+                                            <p>We use the following types of cookies on our Website:</p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                        <strong>Strictly Necessary Cookies:</strong>These cookies are essential for the functioning of our Website and enable you to navigate and use its features. Without these cookies, certain services may not be available to you.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <strong>Performance Cookies:</strong>These cookies collect information about how visitors use our Website, such as which pages are visited most frequently and any error messages encountered. These cookies do not collect personally identifiable information and are used to improve the performance and functionality of our Website.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <strong>Functionality Cookies:</strong>These cookies allow our Website to remember choices you have made and provide enhanced and personalized features. For example, they may remember your preferred language settings or the region you are in.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <strong>Analytics Cookies:</strong>We use analytics cookies to gather information about your use of our Website. These cookies help us understand how our Website is being used, how effective our marketing campaigns are, and how we can improve our Website to enhance user experience. The information collected is aggregated and anonymous.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <strong>Advertising Cookies:</strong>We may use advertising cookies to display personalized advertisements on our Website or other websites you visit. These cookies are used to deliver targeted advertisements based on your interests and online activities.
+                                                    </p>
+                                                </li>
+
+                                            </ul>
+
+
+                                            <h4 class="pt16">Third-Party Cookies</h4>
+                                            <p>We may also allow certain third-party service providers to place cookies on our Website. These third parties may use cookies to collect information about your online activities across different websites. We do not have control over these third-party cookies and their use is subject to their respective privacy policies.</p>
+
+                                            <h4 class="pt16">Cookie Management</h4>
+                                            <p>When you first visit our Website, we will request your consent to use cookies. You have the right to accept or decline cookies. However, please note that declining cookies may limit your access to certain features of our Website.
+                                            </p>
+                                            <br></br>
+                                            <p>Most web browsers are set to accept cookies by default. You can modify your browser settings to manage or delete cookies. Please refer to your browser's help documentation for more information on how to manage cookies.</p>
+
+                                            <h4 class="pt16">Updates to this Policy</h4>
+                                            <p>We may update this Cookie Policy from time to time to reflect changes in technology, applicable laws, or our business practices. Any changes will be posted on this page with the updated effective date. We encourage you to review this Policy periodically to stay informed about our use of cookies.</p>
+
+
+                                            <h4 class="pt16">Contact Us</h4>
+                                            <p>If you have any questions or concerns about this Cookie Policy or our use of cookies, please contact us at <strong>info@surya.eu</strong></p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="nav_tabs_content_2" role="tabpanel" aria-labelledby="nav_tabs_link_2">
+                                <div class="oe_structure oe_empty">
+                                    <section class="s_text_block">
+                                        <div class="container-fluid">
+                                            <h2 class="pt16">Data Protection Policy</h2>
+
+                                            <h4 class="pt16">Introduction</h4>
+                                            <h4 class="pt16">1.1 Purpose</h4>
+                                            <p>This Data Protection Policy outlines the principles and guidelines to be followed by our e-commerce website ("www.surya.eu"), based in The Netherlands, to ensure the protection and privacy of user data. This policy aims to comply with the General Data Protection Regulation (GDPR) guidelines.</p>
+
+                                            <h4 class="pt16">1.2 Scope</h4>
+                                            <p>This policy applies to all personal data collected, processed, and stored by the Website in the course of providing services related to account creation, browsing, purchasing, payment, and order tracking of home furnishing items.</p>
+
+                                            <h4 class="pt16">Definitions</h4>
+                                            <h4>2.1 Personal Data</h4>
+                                            <p>Personal data refers to any information relating to an identified or identifiable individual, such as name, address, email address, payment details, and order history.</p>
+
+                                            <h4 class="pt16">2.2 Data Controller</h4>
+                                            <p>The Website, which determines the purposes and means of personal data processing, is the data controller as defined by the GDPR.</p>
+
+                                            <h4 class="pt16">2.3 Data Processor</h4>
+                                            <p>Any third-party entity engaged by the Website to process personal data on its behalf, such as payment gateways or logistics providers, is considered a data processor.</p>
+
+                                            <h4 class="pt16">Data Collection and Processing</h4>
+
+                                            <h4 class="pt16">3.1 Lawful Basis for Processing</h4>
+                                            <p>The Website will only process personal data if it has a lawful basis for doing so, such as user consent, the necessity to fulfil an order, legal obligations, or legitimate interests pursued by the Website or a third party.</p>
+
+                                            <h4 class="pt16">3.2 Types of Personal Data Collected</h4>
+                                            <p>The Website collects and processes the following personal data for the specified purposes:</p>
+                                            <ul>
+
+                                                <li><strong>Account Creation:</strong>
+                                                <p>Name, email address, password (encrypted), address details, and contact information.</p>
+                                                </li>
+
+                                                 <li><strong>Browsing:</strong>
+                                                  <p>IP address, cookies, and other usage data for statistical analysis and website improvement.</p>
+                                                </li>
+
+                                                 <li><strong>Purchasing:</strong>
+                                                  <p>Personal data necessary for order processing, including billing and shipping addresses, phone numbers, and order history.</p>
+                                                </li>
+
+                                                 <li><strong>Payment:</strong>
+                                                  <p>Payment details, such as credit card numbers, are securely processed by third-party payment gateways. The Website does not store or retain full payment card information.</p>
+                                                </li>
+
+                                                 <li><strong>Order Tracking:</strong>
+                                                  <p>Information related to order status and delivery, such as tracking numbers and shipping carrier details.</p>
+                                                </li>
+                                            </ul>
+
+                                            <h4 class="pt16">3.3 Data Minimization</h4>
+                                            <p>The Website will only collect and process personal data that is necessary and relevant for the specified purposes. Data collected will be limited to the minimum required.</p>
+
+                                            <h4 class="pt16">3.4 Data Retention</h4>
+                                            <p>Personal data will be retained for as long as necessary to fulfil the purposes for which it was collected and in accordance with legal obligations. When data is no longer required, it will be securely erased or anonymized.</p>
+
+                                            <h4 class="pt16">User Rights</h4>
+
+                                            <h4 class="pt16">4.1 Right to Access and Rectification</h4>
+                                            <p>Users have the right to access their personal data and request its rectification if inaccurate or incomplete. Users can update their account information directly through the Website's account settings.</p>
+
+                                            <h4 class="pt16">4.2 Right to Erasure</h4>
+                                            <p>Users can request the erasure of their personal data under certain circumstances, such as withdrawal of consent or if the data is no longer necessary for the purposes it was collected.</p>
+
+                                            <h4 class="pt16">4.3 Right to Data Portability</h4>
+                                            <p>Users have the right to receive their personal data in a structured, commonly used, and machine-readable format and to transmit it to another data controller, where technically feasible.</p>
+
+                                            <h4 class="pt16">4.4 Right to Restriction of Processing</h4>
+                                            <p>Users can request the restriction of processing their personal data under specific circumstances, such as the accuracy of the data being contested or unlawful processing.</p>
+
+                                            <h4 class="pt16">4.5 Right to Object</h4>
+                                            <p>Users have the right to object to the processing of their personal data based on legitimate interests. The Website will cease processing the data, unless compelling legitimate grounds override the individual's interests, rights, and freedoms.</p>
+
+                                            <h4 class="pt16">4.6 Right to Withdraw Consent</h4>
+                                            <p>Where personal data processing is based on user consent, individuals have the right to withdraw their consent at any time. Withdrawal of consent does not affect the lawfulness of processing based on consent before its withdrawal.</p>
+
+                                            <h4 class="pt16">Data Security</h4>
+
+                                            <h4 class="pt16"> 5.1 Confidentiality and Integrity</h4>
+                                            <p>The Website employs technical and organizational measures to ensure the confidentiality, integrity, and availability of personal data. These measures include encryption, access controls, regular security assessments, and staff training on data protection.</p>
+
+                                             <h4 class="pt16">5.2 Data Breach Response</h4>
+                                            <p>In the event of a data breach that may pose a risk to individuals' rights and freedoms, the Website will promptly notify the relevant supervisory authority and affected individuals, as required by applicable laws and regulations.</p>
+
+
+                                            <h4 class="pt16">Data Transfers</h4>
+
+                                            <h4 class="pt16">6.1 Transfers within the EU/EEA</h4>
+                                            <p>The Website may transfer personal data to other countries within the European Union (EU) or European Economic Area (EEA) without additional safeguards, as these countries are considered to provide an adequate level of data protection.</p>
+
+                                            <h4 class="pt16">6.2 Transfers outside the EU/EEA</h4>
+                                            <p>If personal data is transferred outside the EU/EEA, the Website will ensure appropriate safeguards are in place, such as using standard contractual clauses or relying on an adequacy decision by the European Commission.</p>
+
+                                            <h4 class="pt16">Third-Party Processors</h4>
+                                            <h4 class="pt16">7.1 Data Processors</h4>
+                                            <p>The Website may engage third-party data processors for specific purposes, such as payment processing or order fulfilment. These processors will be carefully selected and required to comply with GDPR requirements and provide sufficient guarantees regarding data protection.</p>
+
+                                            <h4 class="pt16">Privacy by Design and Default</h4>
+
+                                            <h4 class="pt16">8.1 Privacy Impact Assessments</h4>
+                                            <p>The Website will conduct privacy impact assessments (PIAs) to assess the potential risks and impacts on individual privacy when developing new systems or processing personal data in a new way.</p>
+
+                                            <h4 class="pt16">8.2 Privacy by Default</h4>
+                                            <p>Privacy-enhancing measures, such as minimizing the collection of personal data and providing granular privacy options, will be implemented by default to ensure users have maximum control over their personal information.</p>
+
+                                            <h4 class="pt16">Compliance and Training</h4>
+                                            <h4 class="pt16">9.1 Data Protection Officer (DPO)</h4>
+                                            <p>The Website has appointed a Data Protection Officer responsible for overseeing data protection and privacy matters. Users can contact the DPO regarding any concerns or questions related to their personal data.</p>
+
+                                            <h4 class="pt16">9.2 Staff Training</h4>
+                                            <p>All employees and contractors who handle personal data will receive appropriate training on data protection and privacy best practices, as well as their obligations under GDPR.</p>
+
+                                            <h4 class="pt16">Policy Review</h4>
+                                            <p>This Data Protection Policy will be reviewed regularly to ensure its continued relevance and compliance with legal requirements. Any necessary updates will be made and communicated accordingly.</p>
+
+                                            <h4 class="pt16">Contact information</h4>
+                                            <p>For any inquiries or concerns related to this Data Protection Policy, users can contact the Website's Data Protection Officer at the following address:</p>
+                                            
+
+                                            <strong>Turan Yilmaz,<br></br>
+                                            turan.yilmaz@surya.com <br></br>
+                                            Surya B.V. <br></br>
+                                            Voorschoterweg 23 G <br></br>
+                                            2235SE Valkenburg Netherlands
+                                            </strong>
+
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+
+                            <!-- <div class="tab-pane fade" id="nav_tabs_content_3" role="tabpanel" aria-labelledby="nav_tabs_link_3">
+                                <div class="oe_structure oe_empty">
+                                    <section class="s_text_block">
+                                        <div class="container-fluid">
+                                            <p>To be successful your content needs to be useful to your readers.</p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </template>
+
+    <template id="place_into_bar_policies_surya" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="Suryaweb.s_policies_surya"/>
+        </xpath>
+    </template>
+
+</odoo>

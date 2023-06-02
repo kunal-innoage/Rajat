@@ -10,56 +10,72 @@
                         <div class="content">
                     Vintage
                         </div>
+                       <a href="/shop/category/vintage-13">
                         <div class = "disc-btn"><button type="button" class="btn btn-light">Discover Now <i class="fa fa-arrow-right"></i></button></div>
+                        </a>
                     </div>
                     <div class="item">
                         <img src="/Suryaweb/static/src/img/skandi_collection.jpg" class="avatar"/>
                         <div class="content"> 
                     Skandi
                         </div>
+                        <a href="/shop/category/skandi-1">
                         <div class = "disc-btn"><button type="button" class="btn btn-light">Discover Now <i class="fa fa-arrow-right"></i></button></div>
+                        </a>
                     </div>
                     <div class="item">
                         <img src="/Suryaweb/static/src/img/outdoor_collection.jpg" class="avatar"/>
                         <div class="content">
                     Outdoor
                         </div>
+                        <a href="/shop/category/outdoor-2">
                         <div class = "disc-btn"><button type="button" class="btn btn-light">Discover Now <i class="fa fa-arrow-right"></i></button></div>
+                        </a>
                     </div>
                     <div class="item">
                         <img src="/Suryaweb/static/src/img/machinewashable_collection.jpg" class="avatar"/>
                         <div class="content">
                     Machine Washable
                         </div>
+                        <a href="/shop/category/machine-washable-11">
                         <div class = "disc-btn"><button type="button" class="btn btn-light">Discover Now <i class="fa fa-arrow-right"></i></button></div>
+                        </a>
                     </div>
                     <div class="item">
                         <img src="/Suryaweb/static/src/img/abstract_collection.jpg" class="avatar"/>
                         <div class="content">
                     Abstract
                         </div>
+                        <a href="/shop/category/abstract-20">
                         <div class = "disc-btn"><button type="button" class="btn btn-light">Discover Now <i class="fa fa-arrow-right"></i></button></div>
+                        </a>
                     </div>
                     <div class="item">
                         <img src="/Suryaweb/static/src/img/shaggy_collection.jpg" class="avatar"/>
                         <div class="content">
                     Shaggy
                         </div>
+                        <a href="/shop/category/shaggy-3">
                         <div class = "disc-btn"><button type="button" class="btn btn-light">Discover Now <i class="fa fa-arrow-right"></i></button></div>
+                        </a>
                     </div>
                     <div class="item">
                         <img src="/Suryaweb/static/src/img/kids_collection.jpg" class="avatar"/>
                         <div class="content">
                     Kids
                         </div>
+                        <a href="/shop/category/kids-4">
                         <div class = "disc-btn"><button type="button" class="btn btn-light">Discover Now <i class="fa fa-arrow-right"></i></button></div>
+                        </a>
                     </div>
                     <div class="item">
                         <img src="/Suryaweb/static/src/img/bathroom_collection.jpg" class="avatar"/>
                         <div class="content">
                     Bathroom
                         </div>
+                        <a href="/shop/category/bathroom-5">
                         <div class = "disc-btn"><button type="button" class="btn btn-light">Discover Now <i class="fa fa-arrow-right"></i></button></div>
+                        </a>
                     </div>
                 </div>
             </div>
