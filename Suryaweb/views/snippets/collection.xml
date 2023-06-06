@@ -6,7 +6,7 @@
             <div id="formList">
                 <div id="list">
                     <div class="item">
-                        <img src="/Suryaweb/static/src/img/vintage_collection.jpg" class="avatar"/>
+                        <img src="/Suryaweb/static/src/img/vintage_collection.jpg" class="img"/>
                         <div class="content">
                     Vintage
                         </div>
@@ -15,7 +15,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <img src="/Suryaweb/static/src/img/skandi_collection.jpg" class="avatar"/>
+                        <img src="/Suryaweb/static/src/img/skandi_collection.jpg" class="img"/>
                         <div class="content"> 
                     Skandi
                         </div>
@@ -24,7 +24,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <img src="/Suryaweb/static/src/img/outdoor_collection.jpg" class="avatar"/>
+                        <img src="/Suryaweb/static/src/img/outdoor_collection.jpg" class="img"/>
                         <div class="content">
                     Outdoor
                         </div>
@@ -33,7 +33,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <img src="/Suryaweb/static/src/img/machinewashable_collection.jpg" class="avatar"/>
+                        <img src="/Suryaweb/static/src/img/machinewashable_collection.jpg" class="img"/>
                         <div class="content">
                     Machine Washable
                         </div>
@@ -42,7 +42,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <img src="/Suryaweb/static/src/img/abstract_collection.jpg" class="avatar"/>
+                        <img src="/Suryaweb/static/src/img/abstract_collection.jpg" class="img"/>
                         <div class="content">
                     Abstract
                         </div>
@@ -51,7 +51,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <img src="/Suryaweb/static/src/img/shaggy_collection.jpg" class="avatar"/>
+                        <img src="/Suryaweb/static/src/img/shaggy_collection.jpg" class="img"/>
                         <div class="content">
                     Shaggy
                         </div>
@@ -60,7 +60,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <img src="/Suryaweb/static/src/img/kids_collection.jpg" class="avatar"/>
+                        <img src="/Suryaweb/static/src/img/kids_collection.jpg" class="img"/>
                         <div class="content">
                     Kids
                         </div>
@@ -69,7 +69,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <img src="/Suryaweb/static/src/img/bathroom_collection.jpg" class="avatar"/>
+                        <img src="/Suryaweb/static/src/img/bathroom_collection.jpg" class="img"/>
                         <div class="content">
                     Bathroom
                         </div>

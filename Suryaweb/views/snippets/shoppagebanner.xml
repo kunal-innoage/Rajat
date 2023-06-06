@@ -15,7 +15,6 @@
         <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
             <t t-snippet="Suryaweb.s_shoppage_cover"/>
         </xpath>
-        <!-- <h1 style="text-align: center;"><font style="font-size: 42px; font-weight: bold;">Chic &amp; Cosy <span>Rugs,</span> for interiors<br></br> with <span>unique aesthetics,</span> <br></br>like you</font></h1> -->
 
 </template>
 

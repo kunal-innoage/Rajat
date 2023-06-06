@@ -244,13 +244,30 @@ main {
 // mobile responsive Shop page
 
 @media (max-width: 425px) {
+
+    .o_wsale_products_main_row {
+        margin-top: -5px;
+    
+        #products_grid_before {
+            background-color: #f1f1f1 !important;
+            box-shadow: 0px 13px 16px #e7e4e4fa;
+            // padding-left: 1%;
+            margin: 30px;
+        }
+    }
+    
     
 .o_wsale_products_grid_table_wrapper {
     text-align: center;
+    table{
+        tbody{
+            tr{
+            margin-top: -35px;
+            }
+        }
+    }
 
     .oe_product {
-        // padding: 16px !important;
-
         .o_wsale_product_grid_wrapper {
             width: 100%;
             margin-left: 5px;

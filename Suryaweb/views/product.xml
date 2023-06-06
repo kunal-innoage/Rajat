@@ -22,8 +22,7 @@
                 <field name="product_id"/>
                 <field name="tags"/>
                 <field name="website_catalogue_id"/>
-                <!-- <field name="image_url"/>
-                <field name="newly_added_img"></field> -->
+               
             </xpath>
         </field>
     </record>

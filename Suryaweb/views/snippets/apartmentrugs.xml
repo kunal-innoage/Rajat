@@ -16,30 +16,12 @@
                     </div>
                     <div class="col-lg-6 overflow-hidden"> 
                         <div class="pop_over_product_details w100 h100">
-                            <!-- <h3>Vintage Rugs</h3> -->
-                            <h1>New Arrivals</h1>
-                            <!-- <a href="https://www.youtube.com/"> -->
+                            <h1>New Arrivals</h1>                          
                             <i class="fa fa-arrow-right"></i>
-                            <!-- </a> -->
                         </div>
                         <img alt="client" class="apart-rug-img-thumbnail" src="/Suryaweb/static/src/img/new_arrivals.jpg" style = "padding:0px;"/>
                     </div>
-                    <!-- <div class="col-lg-3 overflow-hidden">
-                        <div class="pop_over_product_details w100 h100">
-                            <h3>Vintage Rugs</h3>
-                            <h1>Best Vintage Rugs In The Market</h1>
-                            <i class="fa fa-arrow-right"></i>
-                        </div>
-                        <img alt="client" class="apart-rug-img-thumbnail" src="/Suryaweb/static/src/img/apart1.webp" style = "padding:0px;"/>
-                    </div> -->
-                    <!-- <div class="col-lg-3 overflow-hidden">
-                        <div class="pop_over_product_details w100 h100">
-                            <h3>Vintage Rugs</h3>
-                            <h1>Best Vintage Rugs In The Market</h1>
-                            <i class="fa fa-arrow-right"></i>
-                        </div>
-                        <img alt="client" class="apart-rug-img-thumbnail" src="/Suryaweb/static/src/img/apart2.webp" style = "padding:0px;"/>
-                    </div> -->
+                   
                 </div> 
             </div> 
         </section>

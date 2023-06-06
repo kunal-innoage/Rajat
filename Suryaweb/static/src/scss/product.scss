@@ -229,7 +229,7 @@
         // border: 1px solid  #7e878d;
     }
 
-    .item .avatar{
+    .item .img{
         display: block;
         // margin:50px auto 10px;
         width: 260px;
@@ -263,15 +263,9 @@
     #formList::-webkit-scrollbar{
         display: none;
     }
-    // @media screen and (max-width: 1024px){
-    //     .item{
-    //         width: calc(33.3vw - 20px);
-    //     }
-    // }
+   
     @media screen and (max-width: 768px){
-        // .item{
-        //     width: calc(50vw - 20px);
-        // }
+       
         .direction{
             display: none;
         }
@@ -302,7 +296,7 @@
                 .item{
                    height: 8vh;
                     width: 35vw !important;
-                    .avatar{
+                    .img{
                         display: block;
                         width: 100% !important;
                         height: 100% !important;
@@ -381,29 +375,3 @@
         display: none;
     }
 }
-
-    // .s_market_place{
-    //         #formList{
-    //                 width: 84% !important;
-    //                 max-width: 100%;
-    //                 overflow: auto;
-    //                 margin: 24px auto 48px;
-    //                 scroll-behavior: smooth;
-    //                 scroll-snap-type: both;
-    //             #list{
-    //                 .item{
-    //                    height: 8vh;
-    //                     width: 42vw !important;
-    //                     .avatar{
-    //                         display: block;
-    //                         width: 100% !important;
-    //                         height: 100% !important;
-    //                         object-fit: cover;
-    //                         border-radius: 15px;
-    //                         box-shadow: 2px 12px 15px #7e878d;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    //   } 
